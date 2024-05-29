@@ -43,6 +43,33 @@ margin-top: 21.9px;
 .brand-new div img{
     width: 100%;
 }
+/*quick list style*/
+.quick-list{
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+    margin-inline: 61px;
+    column-gap: 73px;
+}
+.quick-list-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.quick-list h2{
+    margin: 0;
+    padding-bottom: 8px;
+}
+.quick-list-h2{
+    color: #727272;
+    font-weight: 500;
+}
+.quick-list-features{
+    color: #FF900E;
+}
+.quick-list button{
+    margin-top: 16px;
+}
 /*common style*/
 .max-w-1440{
     max-width: 1440px;
