@@ -70,6 +70,54 @@ margin-top: 21.9px;
 .quick-list button{
     margin-top: 16px;
 }
+/*love & enjoy section*/
+
+.love-flex{
+display: flex;
+margin-top: 130px;
+gap: 146px;
+}
+.love{
+    max-width: 586px;
+}
+.love-flex h2{
+ border-left: 5px solid #FF900E;
+ padding-left: 21px;   
+}
+.cards{
+    margin-top: 30px;
+}
+.card{
+border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+margin-bottom: 20px;
+padding: 30px;
+}
+.card p{
+    margin: 0;
+}
+.relative{
+    position: relative;
+    right: 96px;
+    bottom: 120px;
+    background-color: #FF900E;
+    color: #FFF;
+    border-radius: 8px;
+    width: 258px;
+    text-align: center;
+    padding-inline: 42px;
+    padding-block: 45.5px;
+}
+.relative h1{
+    margin: 0;
+}
+.relative p{
+    font-size: 20px;
+    color: #FFF;
+    margin: 0;
+}
+
 /*common style*/
 .max-w-1440{
     max-width: 1440px;
@@ -130,6 +178,7 @@ h2{
         width: 50%;
     }  
 }
+/*style for extra large devises*/
 @media screen and (min-width:992px) and (max-width:1300px) {
     .max-w-1440{
         max-width: 1040px;
