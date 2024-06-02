@@ -156,6 +156,33 @@ h2{
     h2{
         text-align: center;
     }
+
+    /*quick list style*/
+
+    .quick-list{
+       flex-direction: column;
+       margin-inline: 15px; 
+    }
+    .quick-list-img{
+        grid-template-columns: 1fr;
+    }
+    .quick-list-img img{
+        width: 90vw;
+    }
+    /*love & enjoy section*/
+    .love-flex{
+        flex-direction: column;
+        margin-inline: 15px;
+    }
+    .relative{
+        position: unset;
+        width: 74vw;
+        margin-top: 30px;
+    }
+    .love-flex img{
+        width: 100%;
+    }
+
 }
 
 /*style for medium devises*/
@@ -167,6 +194,17 @@ h2{
     nav div{
         margin-inline: auto;
     }
+
+     /*quick list style*/
+
+    .quick-list{
+        flex-direction: column;
+        margin-inline: 15px;
+    }
+    .quick-list-img img{
+        width: 100%;
+    }
+    /*common  style*/
     h2{
         text-align: center;
     }
@@ -177,6 +215,10 @@ h2{
     nav div{
         width: 50%;
     }  
+    /*quick list style*/
+    .quick-list{
+        flex-direction: column;
+    }
 }
 /*style for extra large devises*/
 @media screen and (min-width:992px) and (max-width:1300px) {
