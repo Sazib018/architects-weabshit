@@ -118,6 +118,37 @@ padding: 30px;
     margin: 0;
 }
 
+ /*box model style*/
+
+ .box-model{
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+ }
+ .box-model-1{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 50px;
+ }
+
+ .box-model div{
+    text-align: center;
+ }
+ .box-model h2, .box-model h3{
+    margin-block: 0;
+ }
+ .box p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+ }
+ 
+
 /*common style*/
 .max-w-1440{
     max-width: 1440px;
